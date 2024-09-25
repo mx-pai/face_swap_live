@@ -32,9 +32,8 @@ pip install onnxruntime-gpu==1.16.3
 ```
 python run.py --execution-provider cuda
 ```
-<details/>
+</details>
 
-## 项目起源
 ---
 
 引用自[开源项目](https://github.com/hacksider/Deep-Live-Cam.git)
