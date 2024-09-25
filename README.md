@@ -21,21 +21,19 @@ git clone https://github.com/mx-pai/face_swap_live.git
    ```
 <details>
    
-### CUDA 额外下载
-7. Install [CUDA Toolkit 11.8](https://developer.nvidia.com/cuda-11-8-0-download-archive)
-8. Install dependencies:
-
+### CUDA用户使用
+- 下载 [CUDA Toolkit 11.8](https://developer.nvidia.com/cuda-11-8-0-download-archive)
+- 更新依赖:
 ```
 pip uninstall onnxruntime onnxruntime-gpu
 pip install onnxruntime-gpu==1.16.3
 ```
-<details/>
-3. Usage in case the provider is available:
-
+- 运行项目
 ```
 python run.py --execution-provider cuda
 ```
-
+<details/>
+   
 ---
 
 引用自[开源项目](https://github.com/hacksider/Deep-Live-Cam.git)
