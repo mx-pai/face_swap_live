@@ -15,7 +15,7 @@ git clone https://github.com/mx-pai/face_swap_live.git
 ```
 
 ## 安装依赖
-   
+   建议使用虚拟环境
    ```
    pip install -r requirements.txt
    ```
