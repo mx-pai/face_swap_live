@@ -20,7 +20,7 @@ git clone https://github.com/mx-pai/face_swap_live.git
    pip install -r requirements.txt
    ```
 <details>
-   
+   <summary>如果有GPU加速</summary>
 ### CUDA用户使用
 - 下载 [CUDA Toolkit 11.8](https://developer.nvidia.com/cuda-11-8-0-download-archive)
 - 更新依赖:
