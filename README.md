@@ -11,7 +11,7 @@
 
 ### 下载项目
 ```
-git clone 
+git clone https://github.com/mx-pai/face_swap_live.git
 ```
 
 ### 安装依赖
