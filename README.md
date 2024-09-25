@@ -9,18 +9,19 @@
 5. [GFPGANv1.4](https://huggingface.co/hacksider/deep-live-cam/resolve/main/GFPGANv1.4.pth)
 6. [inswapper_128.onnx](https://huggingface.co/hacksider/deep-live-cam/resolve/main/inswapper_128.onnx)或者 _[另一个版本](https://github.com/facefusion/facefusion-assets/releases/download/models/inswapper_128.onnx)_
 
-### 下载项目
+## 下载项目
 ```
 git clone https://github.com/mx-pai/face_swap_live.git
 ```
 
-### 安装依赖
+## 安装依赖
    
    ```
    pip install -r requirements.txt
    ```
+<details>
    
-#### CUDA 额外下载
+### CUDA 额外下载
 7. Install [CUDA Toolkit 11.8](https://developer.nvidia.com/cuda-11-8-0-download-archive)
 8. Install dependencies:
 
@@ -28,7 +29,7 @@ git clone https://github.com/mx-pai/face_swap_live.git
 pip uninstall onnxruntime onnxruntime-gpu
 pip install onnxruntime-gpu==1.16.3
 ```
-
+<details/>
 3. Usage in case the provider is available:
 
 ```
