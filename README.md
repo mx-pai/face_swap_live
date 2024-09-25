@@ -8,7 +8,12 @@
 ## 模型下载
 5. [GFPGANv1.4](https://huggingface.co/hacksider/deep-live-cam/resolve/main/GFPGANv1.4.pth)
 6. [inswapper_128.onnx](https://huggingface.co/hacksider/deep-live-cam/resolve/main/inswapper_128.onnx)或者 _[另一个版本](https://github.com/facefusion/facefusion-assets/releases/download/models/inswapper_128.onnx)_
-   
+
+### 下载项目
+```
+git clone 
+```
+
 ### 安装依赖
    
    ```
